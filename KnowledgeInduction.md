@@ -1850,6 +1850,7 @@ module.exports = {
     css: {
         loaderOptions: {
           css: {},
+  postcssOptions: {
           postcss: {
             plugins: [
               require('postcss-px2rem')({
@@ -1858,6 +1859,7 @@ module.exports = {
             ]
           }
         }
+}
     },
 }
 
